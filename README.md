@@ -15,3 +15,18 @@ Originally created back in 2011 to track my time spent on video games, it eventu
 
 - https://github.com/Klaster1/timer
 - https://github.com/Klaster1/timer2
+
+# Development
+
+You will need Node.js 22 or newer.
+
+## Running the app for development locally
+
+1. Install packages with `npm i`.
+2. Run `npx ng serve`. The app will start at [http://localhost:4200](http://localhost:4200).
+3. Change the Angular app, the web page will live reload.
+
+## Building the app
+
+1. Install packages with `npm i` if you haven't already.
+2. Run `npm run build`. Static files will be placed in the `dist` directory.
